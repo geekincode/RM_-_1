@@ -1,0 +1,9 @@
+.\objects\arm_float_to_q31.o: ..\Library\CMSIS\Source\SupportFunctions\arm_float_to_q31.c
+.\objects\arm_float_to_q31.o: ..\Library\CMSIS\arm_math.h
+.\objects\arm_float_to_q31.o: ..\Library\CMSIS\core_cm4.h
+.\objects\arm_float_to_q31.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\arm_float_to_q31.o: ..\Library\CMSIS\core_cmInstr.h
+.\objects\arm_float_to_q31.o: ..\Library\CMSIS\core_cmFunc.h
+.\objects\arm_float_to_q31.o: ..\Library\CMSIS\core_cmSimd.h
+.\objects\arm_float_to_q31.o: D:\MDK5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\arm_float_to_q31.o: D:\MDK5\ARM\ARMCC\Bin\..\include\math.h

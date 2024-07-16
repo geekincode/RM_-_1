@@ -1,0 +1,428 @@
+{
+  "name": "CBoard",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "App",
+        "files": [
+          {
+            "path": "../App/Chassia.c"
+          },
+          {
+            "path": "../App/Gimbal.c"
+          },
+          {
+            "path": "../App/IMU.c"
+          },
+          {
+            "path": "../App/MotorDriver.c"
+          },
+          {
+            "path": "../App/Remote.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Bsp",
+        "files": [
+          {
+            "path": "../Bsp/bsp_can.c"
+          },
+          {
+            "path": "../Bsp/bsp_config.h"
+          },
+          {
+            "path": "../Bsp/bsp_switch.c"
+          },
+          {
+            "path": "../Bsp/bsp_usart.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "CMSIS",
+        "files": [
+          {
+            "path": "../Library/CMSIS/core_cm4.h"
+          },
+          {
+            "path": "../User/system_stm32f4xx.c"
+          },
+          {
+            "path": "../User/system_stm32f4xx.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Formula",
+        "files": [
+          {
+            "path": "../Formula/PID.c"
+          },
+          {
+            "path": "../Formula/MyMath.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Library",
+        "files": [
+          {
+            "path": "../Library/STM32F4xx_StdPeriph_Driver/src/misc.c"
+          },
+          {
+            "path": "../Library/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c"
+          },
+          {
+            "path": "../Library/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c"
+          },
+          {
+            "path": "../Library/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c"
+          },
+          {
+            "path": "../Library/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c"
+          },
+          {
+            "path": "../Library/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c"
+          },
+          {
+            "path": "../Library/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c"
+          },
+          {
+            "path": "../Library/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c"
+          },
+          {
+            "path": "../Library/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c"
+          },
+          {
+            "path": "../Library/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c"
+          },
+          {
+            "path": "../Library/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c"
+          },
+          {
+            "path": "../Library/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c"
+          },
+          {
+            "path": "../Library/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c"
+          },
+          {
+            "path": "../Library/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c"
+          },
+          {
+            "path": "../Library/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c"
+          },
+          {
+            "path": "../Library/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c"
+          },
+          {
+            "path": "../Library/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c"
+          },
+          {
+            "path": "../Library/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c"
+          },
+          {
+            "path": "../Library/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "RTOS",
+        "files": [
+          {
+            "path": "../RTOS/include/rtconfig.h"
+          },
+          {
+            "path": "../RTOS/libcpu/arm/cortex-m4/context_rvds.S"
+          },
+          {
+            "path": "../RTOS/libcpu/arm/cortex-m4/cpuport.c"
+          },
+          {
+            "path": "../RTOS/src/board.c"
+          },
+          {
+            "path": "../RTOS/src/clock.c"
+          },
+          {
+            "path": "../RTOS/src/components.c"
+          },
+          {
+            "path": "../RTOS/src/cpu.c"
+          },
+          {
+            "path": "../RTOS/src/idle.c"
+          },
+          {
+            "path": "../RTOS/src/ipc.c"
+          },
+          {
+            "path": "../RTOS/src/irq.c"
+          },
+          {
+            "path": "../RTOS/src/kservice.c"
+          },
+          {
+            "path": "../RTOS/src/mem.c"
+          },
+          {
+            "path": "../RTOS/src/memheap.c"
+          },
+          {
+            "path": "../RTOS/src/mempool.c"
+          },
+          {
+            "path": "../RTOS/src/object.c"
+          },
+          {
+            "path": "../RTOS/src/scheduler.c"
+          },
+          {
+            "path": "../RTOS/src/slab.c"
+          },
+          {
+            "path": "../RTOS/src/thread.c"
+          },
+          {
+            "path": "../RTOS/src/timer.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Startup",
+        "files": [
+          {
+            "path": "../Library/CMSIS/Startup/startup_stm32f446xx.s"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "User",
+        "files": [
+          {
+            "path": "../User/main.c"
+          },
+          {
+            "path": "../User/stm32f4xx_conf.h"
+          },
+          {
+            "path": "../User/stm32f4xx_it.c"
+          },
+          {
+            "path": "../User/stm32f4xx_it.h"
+          },
+          {
+            "path": "../User/stm32f4xx.h"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "9a95d6f8ddb0b06ff6f9e8f1d217fde7"
+  },
+  "targets": {
+    "CBoard": {
+      "excludeList": [],
+      "toolchain": "AC5",
+      "compileConfig": {
+        "cpuType": "Cortex-M4",
+        "floatingPointHardware": "single",
+        "scatterFilePath": "",
+        "useCustomScatterFile": false,
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x20000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x8000000",
+                "size": "0x80000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "STLink",
+      "uploadConfig": {
+        "bin": "",
+        "proType": "SWD",
+        "resetMode": "default",
+        "runAfterProgram": true,
+        "speed": 4000,
+        "address": "0x8000000",
+        "elFile": "None",
+        "optionBytes": ".eide/cboard.st.option.bytes.ini",
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        },
+        "STLink": {
+          "bin": "",
+          "proType": "SWD",
+          "resetMode": "default",
+          "runAfterProgram": true,
+          "speed": 4000,
+          "address": "0x8000000",
+          "elFile": "None",
+          "optionBytes": ".eide/cboard.st.option.bytes.ini",
+          "otherCmds": ""
+        },
+        "OpenOCD": {
+          "bin": "",
+          "target": "stm32f1x",
+          "interface": "stlink",
+          "baseAddr": "0x08000000"
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../Library/CMSIS",
+          "../User",
+          "../Library/STM32F4xx_StdPeriph_Driver/inc",
+          "../App",
+          "../Bsp",
+          "../Formula",
+          ".cmsis/include",
+          "RTE/_CBoard",
+          ".eide/deps",
+          "../RTOS/include",
+          "../RTOS/include/libc"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "STM32F446xx",
+          "USE_STDPERIPH_DRIVER",
+          "__CC_ARM",
+          "__TARGET_FPU_VFP"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}

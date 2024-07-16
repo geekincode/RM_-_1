@@ -1,0 +1,9 @@
+.\objects\arm_max_q31.o: ..\Library\CMSIS\Source\StatisticsFunctions\arm_max_q31.c
+.\objects\arm_max_q31.o: ..\Library\CMSIS\arm_math.h
+.\objects\arm_max_q31.o: ..\Library\CMSIS\core_cm4.h
+.\objects\arm_max_q31.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\arm_max_q31.o: ..\Library\CMSIS\core_cmInstr.h
+.\objects\arm_max_q31.o: ..\Library\CMSIS\core_cmFunc.h
+.\objects\arm_max_q31.o: ..\Library\CMSIS\core_cmSimd.h
+.\objects\arm_max_q31.o: D:\MDK5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\arm_max_q31.o: D:\MDK5\ARM\ARMCC\Bin\..\include\math.h
